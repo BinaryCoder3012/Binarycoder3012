@@ -18,8 +18,6 @@
 ### 🐍 Oh no, something ate my GitHub progression bar!
 <div align="center">
   <img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/output/github-contribution-grid-snake.svg" alt="Snake eating my contributions" />
-  <br/>
-  <i>(P.S. To make this snake work, you'll need to set up a GitHub Action. I've left instructions below!)</i>
 </div>
 
 ---
@@ -76,28 +74,32 @@ My arsenal of algorithms includes (but is not limited to):
 
 ---
 
-### 🎮 Take a break and play a game!
-Ever wanted to play Tic-Tac-Toe on a GitHub Profile? 
+### 🎮 Take a break and play Tic-Tac-Toe!
+Click on any empty square to play your move. It will open a GitHub issue—just click "Submit new issue" and my GitHub Action will automatically update the board!
+
 <div align="center">
+<!-- tictactoe_state: --------- -->
+<!-- tictactoe_board_start -->
+<b>Welcome to Tic-Tac-Toe! X goes first.</b>
+<br/>
 <table>
   <tr>
-    <td><a href="https://github.com/BinaryCoder3012"><img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/main/images/blank.png" width="50" height="50"></a></td>
-    <td><a href="https://github.com/BinaryCoder3012"><img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/main/images/blank.png" width="50" height="50"></a></td>
-    <td><a href="https://github.com/BinaryCoder3012"><img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/main/images/blank.png" width="50" height="50"></a></td>
+    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C0&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
+    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C1&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
+    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C2&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/BinaryCoder3012"><img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/main/images/blank.png" width="50" height="50"></a></td>
-    <td><a href="https://github.com/BinaryCoder3012"><img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/main/images/x.png" width="50" height="50"></a></td>
-    <td><a href="https://github.com/BinaryCoder3012"><img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/main/images/blank.png" width="50" height="50"></a></td>
+    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C3&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
+    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C4&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
+    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C5&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/BinaryCoder3012"><img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/main/images/blank.png" width="50" height="50"></a></td>
-    <td><a href="https://github.com/BinaryCoder3012"><img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/main/images/blank.png" width="50" height="50"></a></td>
-    <td><a href="https://github.com/BinaryCoder3012"><img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/main/images/o.png" width="50" height="50"></a></td>
+    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C6&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
+    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C7&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
+    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C8&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
   </tr>
 </table>
-<br/>
-<i>(Disclaimer: This is just a mockup, but it looks pretty cool right?)</i>
+<!-- tictactoe_board_end -->
 </div>
 
 ---
@@ -105,10 +107,10 @@ Ever wanted to play Tic-Tac-Toe on a GitHub Profile?
 ### 📫 Let's Connect!
 
 <div align="center">
-  <a href="mailto:lakshya.sudipta15@gmail.com">
+  <a href="mailto:f20240468@hyderabad.bits-pilani.ac.in">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  <a href="https://linkedin.com/in/lakshya-sachdeva">
+  <a href="https://linkedin.com/in/lakshya-sachdeva2006">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </div>
