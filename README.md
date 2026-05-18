@@ -1,18 +1,16 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Lakshya%20Sachdeva&fontSize=80&animation=fadeIn&fontAlignY=38" alt="Header Banner" />
-  
+  <img src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="100%" alt="Coding Animation">
+</div>
+
+<br/>
+
+<div align="center">
   <h3>
     <a href="https://git.io/typing-svg">
       <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Lakshya+Sachdeva+%F0%9F%91%8B;Second-Year+Undergrad+at+BITS+Pilani;Electronics+and+Instrumentation+(ENI);Competitive+Programmer+%7C+Full-Stack+Dev" alt="Typing SVG" />
     </a>
   </h3>
-  
-  <p>
-    <b>"Talk is cheap. Show me the code."</b> — Linus Torvalds
-  </p>
 </div>
-
-<br/>
 
 <div align="center">
   <a href="https://github.com/BinaryCoder3012">
@@ -22,13 +20,37 @@
 
 ---
 
-### 👨‍💻 The Blueprint
+### 💻 System Specs: `lakshya.exe`
 
-- 🎓 **Education:** Second-Year Undergraduate at **BITS Pilani, Hyderabad Campus**.
-- 🔌 **Major:** **Electronics and Instrumentation Engineering (ENI)**.
-- 💡 **Passion:** Deeply interested in both the hardware that runs the world and the software that controls it.
-- 🚀 **Currently:** Grinding algorithms, building web apps, and surviving engineering exams.
-- 🌟 **Goal:** Write code that makes an impact (and hopefully doesn't crash in production).
+```javascript
+const lakshya = {
+    pronouns: "He" | "Him",
+    education: "BITS Pilani, Hyderabad Campus (ENI)",
+    status: "Second-Year Undergraduate",
+    focus: ["Competitive Programming", "Full-Stack Development"],
+    loves: ["Algorithms", "Web Design", "Breaking things", "Fixing them 3 hours later"],
+    currentMission: "Writing code that makes an impact (and doesn't crash in production)"
+}
+```
+
+---
+
+### 🕹️ Choose Your Fighter (Tech Stack)
+
+| ⚔️ Front-End Fighter | 🛡️ Back-End Brawler | 🔮 Database Defender | 🛠️ Tools Tactician |
+| :---: | :---: | :---: | :---: |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="60" height="60"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="60" height="60"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="60" height="60"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="60" height="60"> |
+| **React.js** | **C++** | **Firebase** | **Linux** |
+| Power: `95` | Power: `99` | Power: `85` | Power: `100` |
+| Special: *Hooks* | Special: *Pointers* | Special: *Real-time* | Special: *Sudo* |
+
+<br/>
+<p align="center">
+  <b>Other Unlocked Characters:</b><br/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,js,ts,nextjs,nodejs,tailwind,git,github,vscode,docker" />
+  </a>
+</p>
 
 ---
 
@@ -69,84 +91,48 @@ My favorite weapons of choice:
 
 ---
 
-### 📈 GitHub & LeetCode Analytics
+### 📊 GitHub Activity & Streaks
 
-*(Stats should now be fully visible!)*
+*(A look at my daily coding consistency)*
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BinaryCoder3012&show_icons=true&theme=radium&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BinaryCoder3012&layout=compact&theme=radium&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BinaryCoder3012&theme=radical&hide_border=true" alt="GitHub Streak" />
 </div>
 <br/>
 <div align="center">
   <img src="https://leetcard.jacoblin.cool/BinaryCoder3012?theme=dark&font=Syne&ext=heatmap" alt="LeetCode Stats" />
 </div>
 
-<br/>
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BinaryCoder3012&theme=react-dark&hide_border=true" alt="Activity Graph" />
-</div>
-
 ---
 
-### 🛠️ Technologies & Tools
+### 👾 Retro Break
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,cpp,c,js,ts,react,nextjs,nodejs,tailwind,firebase,git,github,vscode,linux,docker" />
-  </a>
-</p>
-
----
-
-### 🎮 Take a break and play Tic-Tac-Toe!
-Click on any empty square to play your move. It will open a GitHub issue—just click "Submit new issue" and my GitHub Action will automatically update the board!
-
-<div align="center">
-<!-- tictactoe_state: --------- -->
-<!-- tictactoe_board_start -->
-<b>Welcome to Tic-Tac-Toe! X goes first.</b>
-<br/>
-<table>
-  <tr>
-    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C0&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
-    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C1&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
-    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C2&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C3&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
-    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C4&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
-    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C5&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C6&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
-    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C7&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
-    <td><a href="https://github.com/BinaryCoder3012/BinaryCoder3012/issues/new?title=ttt%7C8&body=Just+submit+this+issue+to+play+your+move!"><img src="https://placehold.co/50x50/1e1e2e/1e1e2e.png" width="50" height="50"></a></td>
-  </tr>
-</table>
-<!-- tictactoe_board_end -->
-</div>
-
----
-
-### 🤯 Fun Fact
-<details>
-  <summary>Click here to reveal a programming secret</summary>
-  <br/>
-  <i>"Debugging is like being the detective in a crime movie where you are also the murderer."</i>
-</details>
+```text
+      __________________
+     |  ______________  |
+     | |              | |
+     | |   CODING     | |
+     | |   IS FUN!    | |
+     | |   [ ] [ ]    | |
+     | |______________| |
+     |                  |
+     |      +           |
+     |    + O +     (B) |
+     |      +   (A)     |
+     |__________________|
+```
 
 ---
 
 ### 😄 Dev Joke of the Day
 <div align="center">
-  <img src="https://readme-jokes.vercel.app/api?theme=radium&hideBorder=true" alt="Jokes Card" />
+  <img src="https://readme-jokes.vercel.app/api?theme=radical&hideBorder=true" alt="Jokes Card" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radium" alt="Quote of the Day" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote of the Day" />
 </div>
 
 ---
@@ -155,7 +141,7 @@ Click on any empty square to play your move. It will open a GitHub issue—just 
 
 <div align="center">
   <a href="mailto:f20240468@hyderabad.bits-pilani.ac.in">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://linkedin.com/in/lakshya-sachdeva2006">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
