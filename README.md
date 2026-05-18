@@ -1,8 +1,15 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Lakshya%20Sachdeva&fontSize=80&animation=fadeIn&fontAlignY=38" alt="Header Banner" />
   
-  <h3>Hi there! I'm Lakshya Sachdeva 👋</h3>
-  <i>Second-Year Undergrad at BITS Pilani, Hyderabad Campus 🎓 | Electronics and Instrumentation (ENI) 🔌</i>
+  <h3>
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Lakshya+Sachdeva+%F0%9F%91%8B;Second-Year+Undergrad+at+BITS+Pilani;Electronics+and+Instrumentation+(ENI);Competitive+Programmer+%7C+Full-Stack+Dev" alt="Typing SVG" />
+    </a>
+  </h3>
+  
+  <p>
+    <b>"Talk is cheap. Show me the code."</b> — Linus Torvalds
+  </p>
 </div>
 
 <br/>
@@ -15,6 +22,16 @@
 
 ---
 
+### 👨‍💻 The Blueprint
+
+- 🎓 **Education:** Second-Year Undergraduate at **BITS Pilani, Hyderabad Campus**.
+- 🔌 **Major:** **Electronics and Instrumentation Engineering (ENI)**.
+- 💡 **Passion:** Deeply interested in both the hardware that runs the world and the software that controls it.
+- 🚀 **Currently:** Grinding algorithms, building web apps, and surviving engineering exams.
+- 🌟 **Goal:** Write code that makes an impact (and hopefully doesn't crash in production).
+
+---
+
 ### 🐍 Oh no, something ate my GitHub progression bar!
 <div align="center">
   <img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/output/github-contribution-grid-snake.svg" alt="Snake eating my contributions" />
@@ -22,10 +39,10 @@
 
 ---
 
-### 🧠 Data Structures & Algorithms Fanatic
+### 🧠 Data Structures & Algorithms Arsenal
 
-When I'm not studying ENI, I'm deep down the rabbit hole of Competitive Programming and DSA. 
-My arsenal of algorithms includes (but is not limited to):
+When I'm not studying ENI, I'm deep down the rabbit hole of Competitive Programming. 
+My favorite weapons of choice:
 - 🌳 **Trees & Tries** (Because who doesn't like a good root?)
 - 🕸️ **Graphs & Traversals** (Finding the shortest path to graduation)
 - 🧮 **Dynamic Programming** (Memoizing my life mistakes)
@@ -33,7 +50,7 @@ My arsenal of algorithms includes (but is not limited to):
 - 🍔 **Greedy Algorithms** (Me when I see pizza)
 - 0️⃣1️⃣ **Bit Manipulation** (Flipping bits and tables)
 
-**Where I compete:**
+**My Battlegrounds:**
 
 <p align="left">
   <a href="https://leetcode.com/u/BinaryCoder3012" target="_blank">
@@ -50,25 +67,33 @@ My arsenal of algorithms includes (but is not limited to):
   </a>
 </p>
 
-### 📈 Coding Stats
+---
+
+### 📈 GitHub & LeetCode Analytics
+
+*(Stats should now be fully visible!)*
 
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/BinaryCoder3012?theme=dark&font=Syne&ext=activity" alt="LeetCode Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=BinaryCoder3012&show_icons=true&theme=radium&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BinaryCoder3012&layout=compact&theme=radium&hide_border=true" alt="Top Languages" />
 </div>
 <br/>
-
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BinaryCoder3012&show_icons=true&theme=radium&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=BinaryCoder3012&theme=radium&hide_border=true" alt="GitHub Streak" />
+  <img src="https://leetcard.jacoblin.cool/BinaryCoder3012?theme=dark&font=Syne&ext=heatmap" alt="LeetCode Stats" />
+</div>
+
+<br/>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BinaryCoder3012&theme=react-dark&hide_border=true" alt="Activity Graph" />
 </div>
 
 ---
 
-### 🛠️ Technologies & Tools I Learn & Use
+### 🛠️ Technologies & Tools
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,cpp,js,ts,react,nextjs,nodejs,tailwind,firebase,git,github,vscode" />
+    <img src="https://skillicons.dev/icons?i=java,cpp,c,js,ts,react,nextjs,nodejs,tailwind,firebase,git,github,vscode,linux,docker" />
   </a>
 </p>
 
@@ -104,6 +129,28 @@ Click on any empty square to play your move. It will open a GitHub issue—just 
 
 ---
 
+### 🤯 Fun Fact
+<details>
+  <summary>Click here to reveal a programming secret</summary>
+  <br/>
+  <i>"Debugging is like being the detective in a crime movie where you are also the murderer."</i>
+</details>
+
+---
+
+### 😄 Dev Joke of the Day
+<div align="center">
+  <img src="https://readme-jokes.vercel.app/api?theme=radium&hideBorder=true" alt="Jokes Card" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radium" alt="Quote of the Day" />
+</div>
+
+---
+
 ### 📫 Let's Connect!
 
 <div align="center">
@@ -116,10 +163,6 @@ Click on any empty square to play your move. It will open a GitHub issue—just 
 </div>
 
 <br/>
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radium" alt="Quote of the Day" />
-</div>
 
 <div align="center">
   <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> 
