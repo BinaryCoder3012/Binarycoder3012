@@ -7,7 +7,7 @@
 <div align="center">
   <h3>
     <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Lakshya+Sachdeva+%F0%9F%91%8B;Second-Year+Undergrad+at+BITS+Pilani;Electronics+and+Instrumentation+(ENI);Competitive+Programmer+%7C+Full-Stack+Dev" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Lakshya+Sachdeva+%F0%9F%91%8B;Third-Year+Undergrad+at+BITS+Pilani;Electronics+and+Instrumentation+(ENI);Competitive+Programmer+%7C+Full-Stack+Dev" alt="Typing SVG" />
     </a>
   </h3>
 </div>
@@ -26,7 +26,7 @@
 const lakshya = {
     pronouns: "He" | "Him",
     education: "BITS Pilani, Hyderabad Campus (ENI)",
-    status: "Second-Year Undergraduate",
+    status: "Third-Year Undergraduate",
     focus: ["Competitive Programming", "Full-Stack Development"],
     loves: ["Algorithms", "Web Design", "Breaking things", "Fixing them 3 hours later"],
     currentMission: "Writing code that makes an impact (and doesn't crash in production)"
