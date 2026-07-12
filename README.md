@@ -22,16 +22,61 @@
 
 ### 💻 System Specs: `lakshya.exe`
 
-```javascript
-const lakshya = {
-    pronouns: "He" | "Him",
-    education: "BITS Pilani, Hyderabad Campus (ENI)",
-    status: "Third-Year Undergraduate",
-    focus: ["Competitive Programming", "Full-Stack Development"],
-    loves: ["Algorithms", "Web Design", "Breaking things", "Fixing them 3 hours later"],
-    currentMission: "Writing code that makes an impact (and doesn't crash in production)"
-}
-```
+<table align="center" style="border: none; border-collapse: collapse; width: 100%;">
+  <tr style="border: none;">
+    <!-- Left Pane: ASCII Avatar -->
+    <td valign="top" align="left" style="border: none; width: 55%; padding-right: 15px;">
+      <pre>
+#####@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@####
+########@@@#@@@@@@@@@@@@@@@@@@@@@#@@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+################@@###@@@@#####@@@@@#@@@@@@@@@@@@@@@@@@@@@@@@#@@#######
+###############@@##@#@##@@@@@@@#W$*;+*++*?$#@#@@@@@@@@#@##############
+##############@###@@###@@W$$?*;;::::,,,,,..+#@########################
+#####################@@*, .. .,::...,,,,:,  :W#@######################
+####################@#;        .,,  .         +?#@####################
+#####################:                         ,+#####################
+###################@?             .            .+#####################
+#####################          .:;+++:...,     ;W#####################
+####################@+          ,;;:.    ..   .W######################
+######################+   :.. .,.:+;.:,.,,:,  ?#######################
+#######################* :;;;;;;;+**;;++**++.+#W######################
+######################W#$;;+++++:,::,;+*+++;+WW#######################
+######################W#*:;;;::,,,,,::::;:,?WWW#######W#WWWWWWWWWW###
+########################WW:,:,...,,,,.. ,:,:$WWWWWWWWWWWWWWWWWWWWWWWWW
+#######W#W###########WWWWWW:,:::::::::::,.,$WWWWWWWWWWWWWWWWWWWWWWWWWW
+#####WWWWWWWWWWW#WWWWW####*+. .,:::,,,.   ?+$WWWWWWWWWWWWWWWWWWWWWWWWW
+##WWWWWWWWWWWWWWW####W$?+, $?,          .*#..;*?$WWWWWWWWWWWWWWWWWWWWW
+WWWWWWWWWWWWW##WW$?*;,.    +@W?:..... ,+W#W. ..,,:;+*?$$$$$$$$$$$$$$$W
+WWWWWWWWW##W$?+;:,..       ,###@W+;:;?####?   .,....,,:;+*?$$$$$$$$$$$
+WWWWWWWWW*;:,,,.....        $#W*:.  .:*W#@+      .......,,,::?$$$$$$$$
+WWWWWWW#?.........          +W$+      ;?$W:      .. .......  :$$$$$$$$
+WWWWWWW$. .  .              :$WWW    $WWW$.        ..         +$$?????
+WWWWWW#+                    .$W#+    *###?         ..         ,$??????
+WWWWWWW,                     *#W      W#W+                     *$?????
+      </pre>
+    </td>
+    <!-- Right Pane: Terminal System Specs -->
+    <td valign="top" align="left" style="border: none; width: 45%;">
+      <br/>
+      <pre>
+<b>Lakshya@Neural-Grid ~$</b> neofetch
+-------------------------------
+.Subject: ...... Lakshya Sachdeva
+.Designation: .. SDE & Full-Stack Developer
+                 Competitive Programmer
+.Origin: ....... BITS Pilani, Hyd Campus
+                 (ENI + C&I Minor)
+.Status: ....... Active Undergrad (Y3)
+.ToolChain: .... VS Code, Git, Docker, Linux
+
+.Neural.Core: .. C++, Java, JS, TS
+.Neural.Web: ... React, Next.js, HTML/CSS
+.Neural.Dev: ... Node.js, Express, Firebase
+.Neural.Ops: ... Linux, Docker, Git
+      </pre>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -75,10 +120,10 @@ My favorite weapons of choice:
 **My Battlegrounds:**
 
 <p align="left">
-  <a href="https://leetcode.com/u/BinaryCoder3012" target="_blank">
+  <a href="https://leetcode.com/u/lakshya1313" target="_blank">
     <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode" />
   </a>
-  <a href="https://codeforces.com/profile/BinaryCoder3012" target="_blank">
+  <a href="https://codeforces.com/profile/Lakshya_13" target="_blank">
     <img src="https://img.shields.io/badge/-Codeforces-1F8ACB?style=for-the-badge&logo=Codeforces&logoColor=white" alt="Codeforces" />
   </a>
   <a href="https://www.codechef.com/users/BinaryCoder3012" target="_blank">
@@ -100,7 +145,7 @@ My favorite weapons of choice:
 </div>
 <br/>
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/BinaryCoder3012?theme=dark&font=Syne&ext=heatmap" alt="LeetCode Stats" />
+  <img src="https://leetcard.jacoblin.cool/lakshya1313?theme=dark&font=Syne&ext=heatmap" alt="LeetCode Stats" />
 </div>
 
 ---
