@@ -24,9 +24,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile_dark.svg?v=5">
-    <source media="(prefers-color-scheme: light)" srcset="profile_light.svg?v=5">
-    <img src="profile_dark.svg?v=5" alt="Lakshya Sachdeva Profile Dashboard" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="profile_dark.svg?v=6">
+    <source media="(prefers-color-scheme: light)" srcset="profile_light.svg?v=6">
+    <img src="profile_dark.svg?v=6" alt="Lakshya Sachdeva Profile Dashboard" width="100%">
   </picture>
 </div>
 
