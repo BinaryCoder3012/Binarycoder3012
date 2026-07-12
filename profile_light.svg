@@ -6,15 +6,15 @@
   font-family: 'ConsolasFallback';
   font-display: swap;
 }
-.key      { fill: #0d9488; font-weight: bold; }   
-.value    { fill: #1f2937; }   
-.cc       { fill: #9ca3af; }   
-.title    { fill: #0f766e; font-weight: bold; font-size: 17px; }
-.section  { fill: #db2777; font-weight: bold; }
-.ascii    { fill: #0d9488; }
+.key      { fill: #5EEAD4; font-weight: bold; }   
+.value    { fill: #E5E7EB; }   
+.cc       { fill: #4b5563; }   
+.title    { fill: #7DF9FF; font-weight: bold; font-size: 17px; }
+.section  { fill: #FF5F87; font-weight: bold; }
+.ascii    { fill: #7DF9FF; }
 text, tspan { white-space: pre; }
 </style>
-<rect width="1180px" height="530px" fill="#ffffff" rx="15"/>
+<rect width="1180px" height="530px" fill="#000000" rx="15"/>
 
 <!-- Left Pane: 70-col scaled ASCII Art -->
 <g transform="translate(22, 20) scale(0.48, 1.25)">
@@ -58,25 +58,25 @@ text, tspan { white-space: pre; }
 </g>
 
 <!-- Right Pane: Terminal System Specs -->
-<text x="640" y="30">
-  <tspan x="640" y="35" class="title">Lakshya@Binary-Workspace</tspan><tspan class="cc"> ----------------------------------</tspan>
-  <tspan x="640" y="55" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc"> ....................... </tspan><tspan class="value">Lakshya Sachdeva</tspan>
-  <tspan x="640" y="75" class="cc">. </tspan><tspan class="key">Designation</tspan><tspan class="cc"> ................... </tspan><tspan class="value">SDE &amp; Full-Stack Dev, CP</tspan>
-  <tspan x="640" y="95" class="cc">. </tspan><tspan class="key">Origin</tspan><tspan class="cc"> ........................ </tspan><tspan class="value">BITS Pilani, Hyd Campus</tspan>
-  <tspan x="640" y="115" class="cc">. </tspan><tspan class="cc">                                </tspan><tspan class="value">(ENI + C&amp;I Minor)</tspan>
-  <tspan x="640" y="135" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc"> ........................ </tspan><tspan class="value">Active Undergrad (Y3)</tspan>
-  <tspan x="640" y="155" class="cc">. </tspan><tspan class="key">ToolChain</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">VS Code, Git, Docker, Linux</tspan>
-  <tspan x="640" y="175" class="cc">. </tspan>
-  <tspan x="640" y="195" class="cc">. </tspan><tspan class="key">Binary.Core</tspan><tspan class="cc"> ................... </tspan><tspan class="value">C++, Java, JS, TS</tspan>
-  <tspan x="640" y="215" class="cc">. </tspan><tspan class="key">Binary.Frontend</tspan><tspan class="cc"> ............... </tspan><tspan class="value">React, Next.js, Tailwind</tspan>
-  <tspan x="640" y="235" class="cc">. </tspan><tspan class="key">Binary.Backend</tspan><tspan class="cc"> ................ </tspan><tspan class="value">Node.js, Express, Firebase</tspan>
-  <tspan x="640" y="255" class="cc">. </tspan><tspan class="key">Binary.Ops</tspan><tspan class="cc"> .................... </tspan><tspan class="value">Linux, Docker, Git</tspan>
-  <tspan x="640" y="275" class="cc">. </tspan>
-  <tspan x="640" y="295" class="section">- Contact</tspan><tspan class="cc"> -----------------------------------------</tspan>
-  <tspan x="640" y="315" class="cc">. </tspan><tspan class="key">Grid.Mail</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">f20240468@hyderabad.bits-pilani.ac.in</tspan>
-  <tspan x="640" y="335" class="cc">. </tspan><tspan class="key">Grid.LinkedIn</tspan><tspan class="cc"> ................. </tspan><tspan class="value">linkedin.com/in/lakshya-sachdeva2006</tspan>
-  <tspan x="640" y="355" class="cc">. </tspan><tspan class="key">Grid.LeetCode</tspan><tspan class="cc"> ................. </tspan><tspan class="value">leetcode.com/u/lakshya1313</tspan>
-  <tspan x="640" y="375" class="cc">. </tspan><tspan class="key">Grid.Codeforces</tspan><tspan class="cc"> ............... </tspan><tspan class="value">codeforces.com/profile/Lakshya_13</tspan>
-  <tspan x="640" y="395" class="cc">. </tspan><tspan class="key">Grid.Github</tspan><tspan class="cc"> ................... </tspan><tspan class="value">BinaryCoder3012</tspan>
+<text x="540" y="30">
+  <tspan x="540" y="35" class="title">Lakshya@Binary-Workspace</tspan><tspan class="cc"> ----------------------------------</tspan>
+  <tspan x="540" y="55" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc"> ....................... </tspan><tspan class="value">Lakshya Sachdeva</tspan>
+  <tspan x="540" y="75" class="cc">. </tspan><tspan class="key">Designation</tspan><tspan class="cc"> ................... </tspan><tspan class="value">SDE &amp; Full-Stack Dev, CP</tspan>
+  <tspan x="540" y="95" class="cc">. </tspan><tspan class="key">Origin</tspan><tspan class="cc"> ........................ </tspan><tspan class="value">BITS Pilani, Hyd Campus</tspan>
+  <tspan x="540" y="115" class="cc">. </tspan><tspan class="cc">                                </tspan><tspan class="value">(ENI + C&amp;I Minor)</tspan>
+  <tspan x="540" y="135" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc"> ........................ </tspan><tspan class="value">Active Undergrad (Y3)</tspan>
+  <tspan x="540" y="155" class="cc">. </tspan><tspan class="key">ToolChain</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">VS Code, Git, Docker, Linux</tspan>
+  <tspan x="540" y="175" class="cc">. </tspan>
+  <tspan x="540" y="195" class="cc">. </tspan><tspan class="key">Binary.Core</tspan><tspan class="cc"> ................... </tspan><tspan class="value">C++, Java, JS, TS</tspan>
+  <tspan x="540" y="215" class="cc">. </tspan><tspan class="key">Binary.Frontend</tspan><tspan class="cc"> ............... </tspan><tspan class="value">React, Next.js, Tailwind</tspan>
+  <tspan x="540" y="235" class="cc">. </tspan><tspan class="key">Binary.Backend</tspan><tspan class="cc"> ................ </tspan><tspan class="value">Node.js, Express, Firebase</tspan>
+  <tspan x="540" y="255" class="cc">. </tspan><tspan class="key">Binary.Ops</tspan><tspan class="cc"> .................... </tspan><tspan class="value">Linux, Docker, Git</tspan>
+  <tspan x="540" y="275" class="cc">. </tspan>
+  <tspan x="540" y="295" class="section">- Contact</tspan><tspan class="cc"> -----------------------------------------</tspan>
+  <tspan x="540" y="315" class="cc">. </tspan><tspan class="key">Grid.Mail</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">f20240468@hyderabad.bits-pilani.ac.in</tspan>
+  <tspan x="540" y="335" class="cc">. </tspan><tspan class="key">Grid.LinkedIn</tspan><tspan class="cc"> ................. </tspan><tspan class="value">linkedin.com/in/lakshya-sachdeva2006</tspan>
+  <tspan x="540" y="355" class="cc">. </tspan><tspan class="key">Grid.LeetCode</tspan><tspan class="cc"> ................. </tspan><tspan class="value">leetcode.com/u/lakshya1313</tspan>
+  <tspan x="540" y="375" class="cc">. </tspan><tspan class="key">Grid.Codeforces</tspan><tspan class="cc"> ............... </tspan><tspan class="value">codeforces.com/profile/Lakshya_13</tspan>
+  <tspan x="540" y="395" class="cc">. </tspan><tspan class="key">Grid.Github</tspan><tspan class="cc"> ................... </tspan><tspan class="value">BinaryCoder3012</tspan>
 </text>
 </svg>
