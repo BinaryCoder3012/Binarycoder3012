@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1180" height="530" viewBox="0 0 1180 530" font-size="15px">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+}
+.key      { fill: #5EEAD4; font-weight: bold; }   
+.value    { fill: #E5E7EB; }   
+.cc       { fill: #4b5563; }   
+.title    { fill: #7DF9FF; font-weight: bold; font-size: 17px; }
+.section  { fill: #FF5F87; font-weight: bold; }
+.ascii    { fill: #7DF9FF; }
+text, tspan { white-space: pre; }
+</style>
+<rect width="1180px" height="530px" fill="#000000" rx="15"/>
+
+<!-- Left Pane: High-Precision Scaled ASCII Art -->
+<g transform="translate(15, 30) scale(0.38, 0.88)">
+<text x="0" y="0" class="ascii">
+  <tspan x="0" y="0">                                                                                                                                  </tspan>
+  <tspan x="0" y="9">                                                                                                                                  </tspan>
+  <tspan x="0" y="18">                                                                                                                                  </tspan>
+  <tspan x="0" y="27">                                                                                                                                  </tspan>
+  <tspan x="0" y="36">                                                                                                                                  </tspan>
+  <tspan x="0" y="45">                                                                                                                                  </tspan>
+  <tspan x="0" y="54">                                                                ..,      .                                                        </tspan>
+  <tspan x="0" y="63">                                                            ,a;:s;saass:aaa?++*;                                                  </tspan>
+  <tspan x="0" y="72">                                                       aooi:s::s:;o+o2?a;, aas?+.                                                 </tspan>
+  <tspan x="0" y="81">                                              o22?+o1321o:ia+*++*a+*1**?33?*o*1231                                                </tspan>
+  <tspan x="0" y="90">                                           *3445546667632?1116888886542332*a*666655                                               </tspan>
+  <tspan x="0" y="99">                                          4566677888999$9531*+1$WW8?3WW$$$98999888776a                                            </tspan>
+  <tspan x="0" y="108">                                         6778899$$$WWW###@@@$559@@@@#W@@@@###48W$$$998o ;                                         </tspan>
+  <tspan x="0" y="117">                                        8899$$WW##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##WW$949+                                        </tspan>
+  <tspan x="0" y="126">                                       99$WW##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##Wa;3                                       </tspan>
+  <tspan x="0" y="135">                                      4WW#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#6o                                        </tspan>
+  <tspan x="0" y="144">                                       #@@@@@@@@@@@@@@@@@@@@@@6aia1257325#5*3W@@@@@@@@@6#1                                        </tspan>
+  <tspan x="0" y="153">                                       @@@@@@@@@@@@@@@@@@@3as,..,,,, a27$@@@W8@@@@@@@@@@:                                         </tspan>
+  <tspan x="0" y="162">                                       $@@@@@@@@@@@@@@@@@@$3+oosso215@@@@@$7424@@@@@@@@2                                          </tspan>
+  <tspan x="0" y="171">                                        @@@@@@@@@@W79@@@@@@@93*ao19@@@@@@@@@@#5@@@@@@@6                                           </tspan>
+  <tspan x="0" y="180">                                         @@@@@@@?5W@@6@@@14@$83i;a9@@7o@@@?8@@$6@@@@@@                                            </tspan>
+  <tspan x="0" y="189">                                          +@@@@6*59@$16@$34867*:,:365454567631?*?4@@@3                                            </tspan>
+  <tspan x="0" y="198">                                           2@@@a*?11353112?*22a:  i11+aiiss:,::so;6@.                                             </tspan>
+  <tspan x="0" y="207">                                             $$;+iss;;;;::;aa;     ,:oa:.    .:,s;2@                                              </tspan>
+  <tspan x="0" y="216">                                              6++as::,.,,;++s23aao46?o?a;,.,:;;soa2                                               </tspan>
+  <tspan x="0" y="225">                                               **aas;;;;iss18@W9$W#@@1:,;ssssao*?4s                                               </tspan>
+  <tspan x="0" y="234">                                               ;5*oooaooi;iao1244443o,:;:;o*+*?249                                                </tspan>
+  <tspan x="0" y="243">                                                742??1247W659#$947W#@$8#@@81124776                                                </tspan>
+  <tspan x="0" y="252">                                                aW442*2@@@@@#4*o**ao14$#@@@21353$s                                                </tspan>
+  <tspan x="0" y="261">                                                 2@32??6311148$$@@@@#$852597566#3                                                 </tspan>
+  <tspan x="0" y="270">                                                  a$7653234311232+131?2665468W@+                                                  </tspan>
+  <tspan x="0" y="279">                                                   a@@$53*++oissaaaoaaao+5$@@@1                                                   </tspan>
+  <tspan x="0" y="288">                                                 s@ 9@@@@#323333798799$$@@@@@@  @                                                 </tspan>
+  <tspan x="0" y="297">                                               :6@2 :$$@@@@@@@@@@@@@@@@@@@@W$1  @@3:                                              </tspan>
+  <tspan x="0" y="306">                                            a6@@@@    29W#@@@@@@@@@@@@@@@W97.   8@#@9?s.                                          </tspan>
+  <tspan x="0" y="315">                                       ;*699$$WW##6     *$$8789$W@#W@WWWW8a     @#W8776665*s                                      </tspan>
+  <tspan x="0" y="324">                                   s*24466678899$$$       ;6976632478$@8;       $$$97641?2332?+s:                                 </tspan>
+  <tspan x="0" y="333">                               ;a+****2223556667788          a2456656?         a88776421*oa+*o+oais:,                             </tspan>
+  <tspan x="0" y="342">                           ,:;::;sia+*?1122334455562              .            16555442*+*11*oaai::;:,.                           </tspan>
+  <tspan x="0" y="351">                              ,:;ssaoo+**??112223334        i66666664s         433322211??*aaoisss:::,                            </tspan>
+  <tspan x="0" y="360">                              .,;:ssiaaoo+++**???111      33333333333333       111???**+++aaisss;;:.,.                            </tspan>
+  <tspan x="0" y="369">                               ..,:;;sssiiaaooo+++**a      s11111111111        **+++oooaaiiss:;::,.                               </tspan>
+  <tspan x="0" y="378">                                  ..,,::;;sssiiiaaaas        ++++++++,         aaaaiiisss;:,,,,.                                  </tspan>
+  <tspan x="0" y="387">                                      ...,,:::;;;ssss         aaaaaa          :sss;;;:::,,.                                       </tspan>
+  <tspan x="0" y="396">                                            ...,,,,::        .;;;;;;          ::,,,,...                                           </tspan>
+  <tspan x="0" y="405">                                                             ,,,,,,,,                                                             </tspan>
+  <tspan x="0" y="414">                                                                                                                                  </tspan>
+  <tspan x="0" y="423">                                                                                                                                  </tspan>
+</text>
+</g>
+
+<!-- Right Pane: Terminal System Specs -->
+<text x="500" y="30">
+  <tspan x="510" y="35" class="title">Lakshya@Neural-grid</tspan><tspan class="cc"> -----------------------------------------</tspan>
+  <tspan x="510" y="55" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc"> ....................... </tspan><tspan class="value">Lakshya Sachdeva</tspan>
+  <tspan x="510" y="75" class="cc">. </tspan><tspan class="key">Designation</tspan><tspan class="cc"> ................... </tspan><tspan class="value">SDE &amp; Full-Stack Dev, CP</tspan>
+  <tspan x="510" y="95" class="cc">. </tspan><tspan class="key">Origin</tspan><tspan class="cc"> ........................ </tspan><tspan class="value">BITS Pilani, Hyd Campus</tspan>
+  <tspan x="510" y="115" class="cc">. </tspan><tspan class="cc">                                </tspan><tspan class="value">(ENI + C&amp;I Minor)</tspan>
+  <tspan x="510" y="135" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc"> ........................ </tspan><tspan class="value">Active Undergrad (Y3)</tspan>
+  <tspan x="510" y="155" class="cc">. </tspan><tspan class="key">ToolChain</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">VS Code, Git, Docker, Linux</tspan>
+  <tspan x="510" y="175" class="cc">. </tspan>
+  <tspan x="510" y="195" class="cc">. </tspan><tspan class="key">Neural.Core</tspan><tspan class="cc"> ................... </tspan><tspan class="value">C++, Java, JS, TS</tspan>
+  <tspan x="510" y="215" class="cc">. </tspan><tspan class="key">Neural.Frontend</tspan><tspan class="cc"> ............... </tspan><tspan class="value">React, Next.js, Tailwind</tspan>
+  <tspan x="510" y="235" class="cc">. </tspan><tspan class="key">Neural.Backend</tspan><tspan class="cc"> ................ </tspan><tspan class="value">Node.js, Express, Firebase</tspan>
+  <tspan x="510" y="255" class="cc">. </tspan><tspan class="key">Neural.Ops</tspan><tspan class="cc"> .................... </tspan><tspan class="value">Linux, Docker, Git</tspan>
+  <tspan x="510" y="275" class="cc">. </tspan>
+  <tspan x="510" y="295" class="section">- Contact</tspan><tspan class="cc"> -----------------------------------------</tspan>
+  <tspan x="510" y="315" class="cc">. </tspan><tspan class="key">Grid.Mail</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">f20240468@hyderabad.bits-pilani.ac.in</tspan>
+  <tspan x="510" y="335" class="cc">. </tspan><tspan class="key">Grid.LinkedIn</tspan><tspan class="cc"> ................. </tspan><tspan class="value">linkedin.com/in/lakshya-sachdeva2006</tspan>
+  <tspan x="510" y="355" class="cc">. </tspan><tspan class="key">Grid.LeetCode</tspan><tspan class="cc"> ................. </tspan><tspan class="value">leetcode.com/u/lakshya1313</tspan>
+  <tspan x="510" y="375" class="cc">. </tspan><tspan class="key">Grid.Codeforces</tspan><tspan class="cc"> ............... </tspan><tspan class="value">codeforces.com/profile/Lakshya_13</tspan>
+  <tspan x="510" y="395" class="cc">. </tspan><tspan class="key">Grid.Github</tspan><tspan class="cc"> ................... </tspan><tspan class="value">BinaryCoder3012</tspan>
+  <tspan x="510" y="415" class="cc">. </tspan>
+  <tspan x="510" y="435" class="section">- GitHub Stats</tspan><tspan class="cc"> --------------------------------------</tspan>
+  <tspan x="510" y="455" class="cc">. </tspan><tspan class="value">Repos: ....   9 {Contributed: 15} | Stars: ............  2</tspan>
+  <tspan x="510" y="475" class="cc">. </tspan><tspan class="value">Commits: .........  85          | Followers: ........  0</tspan>
+</text>
+</svg>

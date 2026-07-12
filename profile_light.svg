@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1180" height="530" viewBox="0 0 1180 530" font-size="15px">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+}
+.key      { fill: #0d9488; font-weight: bold; }   
+.value    { fill: #1f2937; }   
+.cc       { fill: #9ca3af; }   
+.title    { fill: #0f766e; font-weight: bold; font-size: 17px; }
+.section  { fill: #db2777; font-weight: bold; }
+.ascii    { fill: #0d9488; }
+text, tspan { white-space: pre; }
+</style>
+<rect width="1180px" height="530px" fill="#ffffff" rx="15"/>
+
+<!-- Left Pane: High-Precision Scaled ASCII Art -->
+<g transform="translate(15, 30) scale(0.38, 0.88)">
+<text x="0" y="0" class="ascii">
+  <tspan x="0" y="0">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="9">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="18">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="27">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="36">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="45">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@$W@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="54">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#W#821?23433212689W@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="63">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@$6321+*?***++**?+      ?7@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="72">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@W$96663+  +?*??*??      ?12  *  13#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="81">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#5           ?+                       6@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="90">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#                                        3#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="99">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@$                                           +58W@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="108">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@9                                              7?5@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="117">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@4                                                  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="126">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@3                                                 +* 6@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="135">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                                                    3W@@@@@@@@@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="144">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@7                        +++                        7@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="153">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                    +*?11??112+                  ?W4@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#</tspan>
+  <tspan x="0" y="162">#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                        **                       $@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#######</tspan>
+  <tspan x="0" y="171">#######@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                                               88###@@@@@@@@@@@@#@@@@@@@@@################</tspan>
+  <tspan x="0" y="180">##############@@@@@@@@@@@@@@@@@@@@@@@@#@$                      +?                     2#W######@@@@@@@@###########################</tspan>
+  <tspan x="0" y="189">#####################@@@@@@@@@@@@@@@@@@#@@                     ?1?                    WWWW#####@@@@###############################</tspan>
+  <tspan x="0" y="198">####################@#######@@#@@@@#####W@@    +               ?33+   +++**????* *  2@WWWW###@@###################################</tspan>
+  <tspan x="0" y="207">#########################################WW#5  * +**??*???*  ?23454??  ?222331?1**  8#$WWW########################################</tspan>
+  <tspan x="0" y="216">#########################################WWW@6   +*??1111?  *   +      +?111???*   6#$WWWW########################################</tspan>
+  <tspan x="0" y="225">########################################WWWW$#9   +**???***           ?1*****+    *#9$$WWWW##########W#WWWWW######################</tspan>
+  <tspan x="0" y="234">######################################WWWWWWW9#?     +  **+          ??*??        4W9$$WWWWWWWWWWWWWWWWWWWWWWWWWW#################</tspan>
+  <tspan x="0" y="243">#################################WWWWW#WWWWWW$#7                                  9$9$$$WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW###########</tspan>
+  <tspan x="0" y="252">###############################WWWW####WWWWWWW$#                                 *W99$$$$$$$$WWWWWWWWWWWWWWWWWWWWWWWWWWWWW########</tspan>
+  <tspan x="0" y="261">#######################W#W#W##WWWWWWWWWWWW##WWWW#                                $9899$$$$$$$$$$$$$$WWWWWWWWWWWWWWWWWWWWWWW#######</tspan>
+  <tspan x="0" y="270">##################W##WWWWWWWWWWWWWWWWWWWWWWWWWW$WW                              W9899$$$$$$$$$$$$$$$$$$$$$$$$$$WWWWWWWWWWWWW######</tspan>
+  <tspan x="0" y="279">#################W##WWWWWWWWWWWWWWWWWWWW$$WWW$$9$@W          +**++  +++        78W9999$$$$$$$$$$$$$$$$$W$$W$$$$WWWWWWWWWWWWW######</tspan>
+  <tspan x="0" y="288">#################WWW#WWWWWWWWWWWWWWWWWWWW$$$$$W@@* W                          77 5WW$9999$$$$$$$$$$$$$$$WW$W$$WWWWWWWWWWWWWWW#####</tspan>
+  <tspan x="0" y="297">################WW#W##WWWWWWWWWWWWWW$$$$W##@@@9?   @?                         @@   ?7WW#W$$999999$$$$$$$$$$$$$WWWWWWWWWWWWWWW#####</tspan>
+  <tspan x="0" y="306">##############W##WWWWWWWWWWWWWWWW$$W##@@#962+     2@#5                      1@@@      *1479$W$$9999999$$$$$$$$$$WWWWWWWWWWWWW#####</tspan>
+  <tspan x="0" y="315">################W#WWWWWWWWWW$WWW#@@#$83*           @$@#4                  +9@$$@           *2479$$$$9999999$$$$$$$$WWWWWWWWW######</tspan>
+  <tspan x="0" y="324">##################WWWWWWWW##@@#W862*               $#W#@@8*             *$@#WW@7               *?257899$$999999$$$$$WWWWWWWWWW####</tspan>
+  <tspan x="0" y="333">#################WWW##@@#W97532?+                  2@W###@@W4         4W@@##@W#                  +*?123579$WWW$$$$$$$WWWWWWWW#####</tspan>
+  <tspan x="0" y="342">##################@@#$864321?????*++                #W#####@@@$42314@@@@##@###@                +*????112234578$WWWWWWWWWWWWW######</tspan>
+  <tspan x="0" y="351">################@W8654333333221??**+                9###@@@8+        *7@@@#####               +***???122333344556WWWWWWWWW########</tspan>
+  <tspan x="0" y="360">@###############$555655544332211??**++              4@#@W4              39#@@@7           +++****??111223334455555WWWWWWW#########</tspan>
+  <tspan x="0" y="369">@@@############@877566554433222111??****+++         +$$9768*           56569##4         +++**?*??112222334444555769#WWW#########@@</tspan>
+  <tspan x="0" y="378">@@@@@#########@W888666555544333322111????*****++++  *97$#W$$5        1$W$$$$7$4  ++++*****?11?112222333444555666778W##########@@@@</tspan>
+  <tspan x="0" y="387">@@@@@@@########9988877666655444433322221111?????*****$$$#$$$#8++++++4@$$WW#@$#?****?????1112222333334445556667788899########@@@@@@</tspan>
+  <tspan x="0" y="396">@@@@@@@@@####@W$$999888777666555444433332222211111???7W$##WWW1******3@W###@#$W???111112222233344444555666777888999$$######@@@@@@@@</tspan>
+  <tspan x="0" y="405">@@@@@@@@@@@@###WW$$$9998888777666555544443333332222224#$####5111111115@@@#@WW9222222333333444455566667778888999$$$WW###@@@@@@@@@@@</tspan>
+  <tspan x="0" y="414">@@@@@@@@@@@@@@@###WWW$$$999888877776666555544444433333WWW##922222222229@@@@W#633334444445555666677778888999$$$WWW###@@@@@@@@@@@@@@</tspan>
+  <tspan x="0" y="423">@@@@@@@@@@@@@@@@@@@###WWW$$$999988887777766666555555549WW##644444444445W#@#WW55555555666667777788889999$$$WWW###@@@@@@@@@@@@@@@@@@</tspan>
+</text>
+</g>
+
+<!-- Right Pane: Terminal System Specs -->
+<text x="500" y="30">
+  <tspan x="510" y="35" class="title">Lakshya@Neural-grid</tspan><tspan class="cc"> -----------------------------------------</tspan>
+  <tspan x="510" y="55" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc"> ....................... </tspan><tspan class="value">Lakshya Sachdeva</tspan>
+  <tspan x="510" y="75" class="cc">. </tspan><tspan class="key">Designation</tspan><tspan class="cc"> ................... </tspan><tspan class="value">SDE &amp; Full-Stack Dev, CP</tspan>
+  <tspan x="510" y="95" class="cc">. </tspan><tspan class="key">Origin</tspan><tspan class="cc"> ........................ </tspan><tspan class="value">BITS Pilani, Hyd Campus</tspan>
+  <tspan x="510" y="115" class="cc">. </tspan><tspan class="cc">                                </tspan><tspan class="value">(ENI + C&amp;I Minor)</tspan>
+  <tspan x="510" y="135" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc"> ........................ </tspan><tspan class="value">Active Undergrad (Y3)</tspan>
+  <tspan x="510" y="155" class="cc">. </tspan><tspan class="key">ToolChain</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">VS Code, Git, Docker, Linux</tspan>
+  <tspan x="510" y="175" class="cc">. </tspan>
+  <tspan x="510" y="195" class="cc">. </tspan><tspan class="key">Neural.Core</tspan><tspan class="cc"> ................... </tspan><tspan class="value">C++, Java, JS, TS</tspan>
+  <tspan x="510" y="215" class="cc">. </tspan><tspan class="key">Neural.Frontend</tspan><tspan class="cc"> ............... </tspan><tspan class="value">React, Next.js, Tailwind</tspan>
+  <tspan x="510" y="235" class="cc">. </tspan><tspan class="key">Neural.Backend</tspan><tspan class="cc"> ................ </tspan><tspan class="value">Node.js, Express, Firebase</tspan>
+  <tspan x="510" y="255" class="cc">. </tspan><tspan class="key">Neural.Ops</tspan><tspan class="cc"> .................... </tspan><tspan class="value">Linux, Docker, Git</tspan>
+  <tspan x="510" y="275" class="cc">. </tspan>
+  <tspan x="510" y="295" class="section">- Contact</tspan><tspan class="cc"> -----------------------------------------</tspan>
+  <tspan x="510" y="315" class="cc">. </tspan><tspan class="key">Grid.Mail</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">f20240468@hyderabad.bits-pilani.ac.in</tspan>
+  <tspan x="510" y="335" class="cc">. </tspan><tspan class="key">Grid.LinkedIn</tspan><tspan class="cc"> ................. </tspan><tspan class="value">linkedin.com/in/lakshya-sachdeva2006</tspan>
+  <tspan x="510" y="355" class="cc">. </tspan><tspan class="key">Grid.LeetCode</tspan><tspan class="cc"> ................. </tspan><tspan class="value">leetcode.com/u/lakshya1313</tspan>
+  <tspan x="510" y="375" class="cc">. </tspan><tspan class="key">Grid.Codeforces</tspan><tspan class="cc"> ............... </tspan><tspan class="value">codeforces.com/profile/Lakshya_13</tspan>
+  <tspan x="510" y="395" class="cc">. </tspan><tspan class="key">Grid.Github</tspan><tspan class="cc"> ................... </tspan><tspan class="value">BinaryCoder3012</tspan>
+  <tspan x="510" y="415" class="cc">. </tspan>
+  <tspan x="510" y="435" class="section">- GitHub Stats</tspan><tspan class="cc"> --------------------------------------</tspan>
+  <tspan x="510" y="455" class="cc">. </tspan><tspan class="value">Repos: ....   9 {Contributed: 15} | Stars: ............  2</tspan>
+  <tspan x="510" y="475" class="cc">. </tspan><tspan class="value">Commits: .........  85          | Followers: ........  0</tspan>
+</text>
+</svg>

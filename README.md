@@ -22,61 +22,13 @@
 
 ### 💻 System Specs: `lakshya.exe`
 
-<table align="center" style="border: none; border-collapse: collapse; width: 100%;">
-<tr style="border: none;">
-<!-- Left Pane: ASCII Avatar -->
-<td valign="top" align="left" style="border: none; width: 55%; padding-right: 15px;">
-<pre>
-                                                                      
-                                                                      
-                                                                      
-                                                                      
-                               .,,,:;;:::;;                           
-                        :*++?*+;;*?*++++;+??,                         
-                      ,$$WWW##W$**##$W###WWWW$.                       
-                     ;W###@@@@@@@@@@@@@@@@@@@#W*                      
-                     #@@@@@@@@@@@@$#@@@@#@@@@@@$,                     
-                     @@@@@@@@@@W+:,,:*$W$?@@@@@;                      
-                     :@@@@@@@@@#?+:*#@@@##W@@@W                       
-                      ,@@#+W$#W?W*,;W*$W?$*?@@                        
-                        #*;;;;:;;:  :;:,..,,W,                        
-                         ;;,,.,:+?+*?;,.,,:+,                         
-                          *;;;++?$?$$++*++*$                          
-                          *$+?#WW????$W#?*$*                          
-                           +$*++++***++*$W?                           
-                           .$@#?*+*???$@@# ,                          
-                        ,?@  ?@@@@@@@@@@$  $W:                        
-                    ,;?W##@,   +$WWW##$,   W#W?*+:,                   
-                 ,;+*???$WW*     .;;:      WW$*+++;;:,.               
-               .,,,:;+***???    ;?$??:    .???*++;::,,,.              
-                 .,,::;;++++    ******.   ,+++;;:,,,..                
-                   ...,,::::     ;;;;     ,:::,,...                   
-                        .....    ,,,,     ,...                        
-                                                                      
-</pre>
-</td>
-<!-- Right Pane: Terminal System Specs -->
-<td valign="top" align="left" style="border: none; width: 45%;">
-<br/>
-<pre>
-<b>Lakshya@Neural-Grid ~$</b> neofetch
--------------------------------
-.Subject: ...... Lakshya Sachdeva
-.Designation: .. SDE & Full-Stack Developer
-                 Competitive Programmer
-.Origin: ....... BITS Pilani, Hyd Campus
-                 (ENI + C&I Minor)
-.Status: ....... Active Undergrad (Y3)
-.ToolChain: .... VS Code, Git, Docker, Linux
-
-.Neural.Core: .. C++, Java, JS, TS
-.Neural.Web: ... React, Next.js, HTML/CSS
-.Neural.Dev: ... Node.js, Express, Firebase
-.Neural.Ops: ... Linux, Docker, Git
-</pre>
-</td>
-</tr>
-</table>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="profile_light.svg">
+    <img src="profile_dark.svg" alt="Lakshya Sachdeva Profile Dashboard" width="100%">
+  </picture>
+</div>
 
 ---
 
