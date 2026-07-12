@@ -23,10 +23,10 @@
 ### 💻 System Specs: `lakshya.exe`
 
 <table align="center" style="border: none; border-collapse: collapse; width: 100%;">
-  <tr style="border: none;">
-    <!-- Left Pane: ASCII Avatar -->
-    <td valign="top" align="left" style="border: none; width: 55%; padding-right: 15px;">
-      <pre>
+<tr style="border: none;">
+<!-- Left Pane: ASCII Avatar -->
+<td valign="top" align="left" style="border: none; width: 55%; padding-right: 15px;">
+<pre>
                                                                       
                                                                       
                                                                       
@@ -53,12 +53,12 @@
                    ...,,::::     ;;;;     ,:::,,...                   
                         .....    ,,,,     ,...                        
                                                                       
-      </pre>
-    </td>
-    <!-- Right Pane: Terminal System Specs -->
-    <td valign="top" align="left" style="border: none; width: 45%;">
-      <br/>
-      <pre>
+</pre>
+</td>
+<!-- Right Pane: Terminal System Specs -->
+<td valign="top" align="left" style="border: none; width: 45%;">
+<br/>
+<pre>
 <b>Lakshya@Neural-Grid ~$</b> neofetch
 -------------------------------
 .Subject: ...... Lakshya Sachdeva
@@ -73,9 +73,9 @@
 .Neural.Web: ... React, Next.js, HTML/CSS
 .Neural.Dev: ... Node.js, Express, Firebase
 .Neural.Ops: ... Linux, Docker, Git
-      </pre>
-    </td>
-  </tr>
+</pre>
+</td>
+</tr>
 </table>
 
 ---
