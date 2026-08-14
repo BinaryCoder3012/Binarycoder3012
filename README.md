@@ -64,6 +64,9 @@
 
 <br/>
 
+### 🚀 Galaga 2.0: My GitHub Contributions As A Space Shooter!
+*(Navigating through the commit galaxy and laser-blasting contribution tiles into oblivion 👾⚡)*
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/output/space-shooter.gif" width="100%" alt="Animated Space Shooter contribution game" />
 </div>
