@@ -18,6 +18,12 @@
   </a>
 </div>
 
+<br/>
+
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/wordmark?username=BinaryCoder3012&theme=aurora&label=Lakshya" width="100%" alt="Animated 3D wordmark for Lakshya" />
+</p>
+
 ---
 
 ### 💻 System Specs: `lakshya.exe`
@@ -54,6 +60,12 @@
 ### 🐍 Oh no, something ate my GitHub progression bar!
 <div align="center">
   <img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/output/github-contribution-grid-snake.svg" alt="Snake eating my contributions" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/output/space-shooter.gif" width="100%" alt="Animated Space Shooter contribution game" />
 </div>
 
 ---
