@@ -78,5 +78,6 @@ text, tspan { white-space: pre; }
   <tspan x="540" y="355" class="cc">. </tspan><tspan class="key">Grid.LeetCode</tspan><tspan class="cc"> ................. </tspan><tspan class="value">leetcode.com/u/lakshya1313</tspan>
   <tspan x="540" y="375" class="cc">. </tspan><tspan class="key">Grid.Codeforces</tspan><tspan class="cc"> ............... </tspan><tspan class="value">codeforces.com/profile/Lakshya_13</tspan>
   <tspan x="540" y="395" class="cc">. </tspan><tspan class="key">Grid.Github</tspan><tspan class="cc"> ................... </tspan><tspan class="value">BinaryCoder3012</tspan>
+  <tspan x="540" y="415" class="cc">. </tspan><tspan class="key">Grid.Portfolio</tspan><tspan class="cc"> ................ </tspan><tspan class="value">lakshyasachdevaportfolio.vercel.app</tspan>
 </text>
 </svg>

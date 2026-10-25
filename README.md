@@ -13,16 +13,13 @@
 </div>
 
 <div align="center">
+  <a href="https://lakshyasachdevaportfolio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Portfolio_Website-lakshyasachdevaportfolio.vercel.app-8A2BE2?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Website" />
+  </a>
   <a href="https://github.com/BinaryCoder3012">
-    <img src="https://komarev.com/ghpvc/?username=BinaryCoder3012&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=BinaryCoder3012&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
   </a>
 </div>
-
-<br/>
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/wordmark?username=BinaryCoder3012&theme=aurora&label=Lakshya" width="100%" alt="Animated 3D wordmark for Lakshya" />
-</p>
 
 ---
 
@@ -30,45 +27,17 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile_dark.svg?v=9">
-    <source media="(prefers-color-scheme: light)" srcset="profile_light.svg?v=9">
-    <img src="profile_dark.svg?v=9" alt="Lakshya Sachdeva Profile Dashboard" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="profile_dark.svg?v=10">
+    <source media="(prefers-color-scheme: light)" srcset="profile_light.svg?v=10">
+    <img src="profile_dark.svg?v=10" alt="Lakshya Sachdeva Profile Dashboard" width="100%">
   </picture>
 </div>
-
----
-
-### 🕹️ Choose Your Fighter (Tech Stack)
-
-| ⚔️ Front-End Fighter | 🛡️ Back-End Brawler | 🔮 Database Defender | 🛠️ Tools Tactician |
-| :---: | :---: | :---: | :---: |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="60" height="60"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="60" height="60"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="60" height="60"> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="60" height="60"> |
-| **React.js** | **C++** | **Firebase** | **Linux** |
-| Power: `95` | Power: `99` | Power: `85` | Power: `100` |
-| Special: *Hooks* | Special: *Pointers* | Special: *Real-time* | Special: *Sudo* |
-
-<br/>
-<p align="center">
-  <b>Other Unlocked Characters:</b><br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,js,ts,nextjs,nodejs,tailwind,git,github,vscode,docker" />
-  </a>
-</p>
 
 ---
 
 ### 🐍 Oh no, something ate my GitHub progression bar!
 <div align="center">
   <img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/output/github-contribution-grid-snake.svg" alt="Snake eating my contributions" />
-</div>
-
-<br/>
-
-### 🚀 Galaga 2.0: My GitHub Contributions As A Space Shooter!
-*(Navigating through the commit galaxy and laser-blasting contribution tiles into oblivion 👾⚡)*
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/output/space-shooter.gif" width="100%" alt="Animated Space Shooter contribution game" />
 </div>
 
 ---
@@ -117,25 +86,6 @@ My favorite weapons of choice:
 
 ---
 
-### 👾 Retro Break
-
-```text
-      __________________
-     |  ______________  |
-     | |              | |
-     | |   CODING     | |
-     | |   IS FUN!    | |
-     | |   [ ] [ ]    | |
-     | |______________| |
-     |                  |
-     |      +           |
-     |    + O +     (B) |
-     |      +   (A)     |
-     |__________________|
-```
-
----
-
 ### 😄 Dev Joke of the Day
 <div align="center">
   <img src="https://readme-jokes.vercel.app/api?theme=radical&hideBorder=true" alt="Jokes Card" />
@@ -152,10 +102,13 @@ My favorite weapons of choice:
 ### 📫 Let's Connect!
 
 <div align="center">
+  <a href="https://lakshyasachdevaportfolio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Website" />
+  </a>
   <a href="mailto:f20240468@hyderabad.bits-pilani.ac.in">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-  <a href="https://linkedin.com/in/lakshya-sachdeva2006">
+  <a href="https://linkedin.com/in/lakshya-sachdeva2006" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </div>
@@ -163,6 +116,6 @@ My favorite weapons of choice:
 <br/>
 
 <div align="center">
-  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> 
+  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60" alt="Coding"> 
   <i>Always compiling...</i>
 </div>
