@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>lakshya.exe</title>
+<meta name="description" content="Lakshya Sachdeva's terminal dashboard, with sound.">
+<meta name="theme-color" content="#000000">
+<style>
+  :root { --cyan: #7DF9FF; --pink: #FF5F87; --ink: #E5E7EB; --dim: #6b7280; }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; background: #000; color: var(--ink);
+    font: 14px/1.4 Consolas, Menlo, "DejaVu Sans Mono", monospace; }
+  body { display: flex; flex-direction: column; min-height: 100dvh; }
+  a { color: inherit; }
+  main { flex: 1; display: grid; place-items: center; padding: 16px; min-height: 0; }
+  #screen { width: min(100%, 1180px, calc((100dvh - 96px) * 2.226)); opacity: 0; transition: opacity .25s; }
+  #screen.on { opacity: 1; }
+  #screen svg { display: block; width: 100%; height: auto; }
+  footer { display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    padding: 12px 16px; color: var(--dim); flex-wrap: wrap; }
+  footer a { text-decoration: none; }
+  footer a:hover, button:hover { color: var(--cyan); }
+  .controls { display: flex; align-items: center; gap: 12px; }
+  button { font: inherit; color: var(--ink); background: none; border: 1px solid #263238;
+    border-radius: 6px; padding: 8px 12px; cursor: pointer; min-height: 40px; }
+  button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+  input[type=range] { width: 120px; accent-color: var(--pink); }
+  #gate { position: fixed; inset: 0; display: grid; place-items: center; background: #000; z-index: 2;
+    padding: 16px; text-align: center; }
+  #gate[hidden] { display: none; }
+  #run { font-size: 18px; color: var(--cyan); border-color: var(--cyan); padding: 16px 26px;
+    box-shadow: 0 0 24px rgba(125, 249, 255, .28); }
+  #run:hover { color: #000; background: var(--cyan); }
+  #run:disabled { opacity: .5; cursor: wait; }
+  #status { margin: 16px 0 0; color: var(--dim); }
+  @media (prefers-reduced-motion: no-preference) {
+    #run:not(:disabled) { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 50% { box-shadow: 0 0 44px rgba(255, 95, 135, .5); } }
+  }
+</style>
+</head>
+<body>
+<div id="gate">
+  <div>
+    <button id="run" disabled>Loading lakshya.exe</button>
+    <p id="status">Sound on. Press Enter or click to run.</p>
+  </div>
+</div>
+<main><div id="screen" aria-label="Animated terminal dashboard for Lakshya Sachdeva" role="img"></div></main>
+<footer>
+  <a href="https://github.com/BinaryCoder3012">&larr; Back to GitHub</a>
+  <div class="controls">
+    <label for="volume">Volume</label>
+    <input id="volume" type="range" min="0" max="1" step="0.05" value="0.7">
+    <button id="mute" aria-pressed="false">Mute (M)</button>
+  </div>
+</footer>
+
+<script>
+// The dashboard comes straight from the profile repo, so edits there show up here.
+const SVG_URL = "https://raw.githubusercontent.com/BinaryCoder3012/BinaryCoder3012/main/profile_dark.svg";
+
+// Keep these in step with scripts/build_dashboard.py.
+const CYCLE = 30, LINES = 20, LINE_START = 0.5, LINE_GAP = 0.13, ART_END = 1.5;
+const COMMANDS = [22, 16, 20, 17, 18, 20];   // characters in each command
+const BURSTS = [8, 8.4, 14.5, 20, 20.3, 26];
+
+const run = document.getElementById("run");
+const gate = document.getElementById("gate");
+const statusLine = document.getElementById("status");
+const screen = document.getElementById("screen");
+const muteButton = document.getElementById("mute");
+const volume = document.getElementById("volume");
+
+let svg, ctx, master, noise;
+let cycleStart = 0, cycleIndex = 0, nextEvent = 0;
+let muted = false;
+
+function eventsForCycle() {
+  const events = [{ t: 0, play: bootChime }, { t: 0.02, play: scanSweep }];
+  for (let line = 0; line < LINES; line++) {
+    for (let c = 0; c < 6; c++) {
+      events.push({ t: LINE_START + line * LINE_GAP + c * 0.04, play: keyTick });
+    }
+  }
+  const first = LINE_START + LINES * LINE_GAP + 0.3;
+  const slot = (CYCLE - 2 - first) / COMMANDS.length;
+  COMMANDS.forEach((length, i) => {
+    const begin = first + i * slot;
+    for (let c = 0; c < length; c++) events.push({ t: begin + c * 0.05, play: keyTick });
+    events.push({ t: begin + length * 0.05 + 0.22, play: launchChirp });
+  });
+  for (const burst of BURSTS) {
+    for (let i = 0; i < 4; i++) events.push({ t: burst + i * 0.09, play: glitchZap });
+  }
+  events.push({ t: CYCLE - 0.45, play: powerDown });
+  return events.sort((a, b) => a.t - b.t);
+}
+const EVENTS = eventsForCycle();
+
+function envelope(start, peak, attack, release) {
+  const gain = ctx.createGain();
+  gain.gain.setValueAtTime(0.0001, start);
+  gain.gain.exponentialRampToValueAtTime(peak, start + attack);
+  gain.gain.exponentialRampToValueAtTime(0.0001, start + attack + release);
+  gain.connect(master);
+  return gain;
+}
+
+function tone(start, type, from, to, peak, attack, release) {
+  const osc = ctx.createOscillator();
+  osc.type = type;
+  osc.frequency.setValueAtTime(from, start);
+  osc.frequency.exponentialRampToValueAtTime(to, start + attack + release);
+  osc.connect(envelope(start, peak, attack, release));
+  osc.start(start);
+  osc.stop(start + attack + release + 0.02);
+}
+
+function burst(start, centre, q, peak, release) {
+  const source = ctx.createBufferSource();
+  source.buffer = noise;
+  source.playbackRate.value = 0.8 + Math.random() * 0.4;
+  const filter = ctx.createBiquadFilter();
+  filter.type = "bandpass";
+  filter.frequency.value = centre;
+  filter.Q.value = q;
+  source.connect(filter).connect(envelope(start, peak, 0.001, release));
+  source.start(start, Math.random());
+  source.stop(start + release + 0.03);
+}
+
+function keyTick(t) {
+  burst(t, 2200 + Math.random() * 1800, 1.4, 0.17, 0.022);
+  tone(t, "square", 170 + Math.random() * 60, 90, 0.012, 0.001, 0.02);
+}
+
+function bootChime(t) {
+  [220, 330, 440, 660].forEach((f, i) => tone(t + i * 0.09, "triangle", f, f, 0.13, 0.008, 0.26));
+}
+
+function scanSweep(t) {
+  const osc = ctx.createOscillator();
+  osc.type = "sawtooth";
+  osc.frequency.setValueAtTime(70, t);
+  osc.frequency.exponentialRampToValueAtTime(900, t + ART_END);
+  const filter = ctx.createBiquadFilter();
+  filter.type = "lowpass";
+  filter.frequency.setValueAtTime(200, t);
+  filter.frequency.exponentialRampToValueAtTime(3200, t + ART_END);
+  osc.connect(filter).connect(envelope(t, 0.035, 0.1, ART_END));
+  osc.start(t);
+  osc.stop(t + ART_END + 0.2);
+}
+
+function launchChirp(t) {
+  tone(t, "square", 660, 660, 0.055, 0.004, 0.06);
+  tone(t + 0.08, "square", 990, 990, 0.055, 0.004, 0.09);
+}
+
+function glitchZap(t) {
+  burst(t, 700 + Math.random() * 3000, 0.8, 0.28, 0.06);
+  tone(t, "sawtooth", 1500 + Math.random() * 1200, 70, 0.09, 0.002, 0.07);
+}
+
+function powerDown(t) {
+  tone(t, "sine", 150, 28, 0.32, 0.01, 0.55);
+  tone(t, "sine", 7800, 2400, 0.018, 0.01, 0.42);
+  burst(t, 420, 0.7, 0.1, 0.3);
+}
+
+function startHum() {
+  const filter = ctx.createBiquadFilter();
+  filter.type = "lowpass";
+  filter.frequency.value = 260;
+  const gain = ctx.createGain();
+  gain.gain.value = 0.028;
+  filter.connect(gain).connect(master);
+  for (const [frequency, type] of [[50, "sawtooth"], [100.4, "sine"]]) {
+    const osc = ctx.createOscillator();
+    osc.type = type;
+    osc.frequency.value = frequency;
+    osc.connect(filter);
+    osc.start();
+  }
+}
+
+function makeNoise() {
+  const buffer = ctx.createBuffer(1, ctx.sampleRate * 2, ctx.sampleRate);
+  const data = buffer.getChannelData(0);
+  for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1;
+  return buffer;
+}
+
+function setLevel() {
+  if (master) master.gain.setTargetAtTime(muted ? 0 : Number(volume.value), ctx.currentTime, 0.02);
+}
+
+// Line the audio clock up with the animation clock.
+function sync() {
+  const now = svg.getCurrentTime();
+  cycleIndex = Math.floor(now / CYCLE);
+  const position = now - cycleIndex * CYCLE;
+  cycleStart = ctx.currentTime - position;
+  nextEvent = EVENTS.findIndex((event) => event.t >= position);
+  if (nextEvent < 0) nextEvent = EVENTS.length;
+}
+
+function schedule() {
+  if (ctx.state !== "running") return;
+  const horizon = ctx.currentTime + 1.2;
+  for (;;) {
+    if (nextEvent >= EVENTS.length) {
+      nextEvent = 0;
+      cycleStart += CYCLE;
+      cycleIndex++;
+    }
+    const at = cycleStart + EVENTS[nextEvent].t;
+    if (at > horizon) break;
+    EVENTS[nextEvent].play(Math.max(at, ctx.currentTime));
+    nextEvent++;
+  }
+}
+
+async function start() {
+  run.disabled = true;
+  ctx = new (window.AudioContext || window.webkitAudioContext)();
+  await ctx.resume();
+  const limiter = ctx.createDynamicsCompressor();
+  limiter.connect(ctx.destination);
+  master = ctx.createGain();
+  master.gain.value = Number(volume.value);
+  master.connect(limiter);
+  noise = makeNoise();
+  startHum();
+
+  gate.hidden = true;
+  screen.classList.add("on");
+  svg.setCurrentTime(0);
+  svg.unpauseAnimations();
+  sync();
+  schedule();
+  setInterval(schedule, 200);
+  muteButton.focus();
+}
+
+function toggleMute() {
+  muted = !muted;
+  muteButton.setAttribute("aria-pressed", String(muted));
+  muteButton.textContent = muted ? "Unmute (M)" : "Mute (M)";
+  setLevel();
+}
+
+async function load() {
+  try {
+    const response = await fetch(SVG_URL, { cache: "no-cache" });
+    if (!response.ok) throw new Error(response.status);
+    const text = (await response.text()).replace(/^<\?xml[^>]*\?>\s*/, "");
+    screen.innerHTML = text;
+    svg = screen.querySelector("svg");
+    svg.pauseAnimations();
+    run.textContent = "▶ Run lakshya.exe";
+    run.disabled = false;
+    run.focus();
+  } catch (error) {
+    run.textContent = "lakshya.exe failed to load";
+    statusLine.textContent = "Check your connection and reload the page.";
+  }
+}
+
+run.addEventListener("click", start);
+muteButton.addEventListener("click", toggleMute);
+volume.addEventListener("input", setLevel);
+document.addEventListener("keydown", (event) => {
+  if (event.key.toLowerCase() === "m" && ctx) toggleMute();
+});
+document.addEventListener("visibilitychange", () => {
+  if (!ctx) return;
+  if (document.hidden) {
+    ctx.suspend();
+  } else {
+    ctx.resume().then(sync);
+  }
+});
+load();
+</script>
+</body>
+</html>
