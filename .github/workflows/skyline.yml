@@ -1,0 +1,57 @@
+name: Generate Contribution City
+
+on:
+  schedule:
+    - cron: "17 * * * *"  # hourly
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/skyline.yml
+      - scripts/skyline.py
+
+concurrency:
+  group: skyline
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render city
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -m pip install --disable-pip-version-check "pillow==12.2.0"
+          python scripts/skyline.py "${{ github.repository_owner }}" -o dist/skyline.webp
+
+      # Own branch for the same reason as space-shooter.yml: snake.yml
+      # force-replaces `output`. A single commit keeps renders out of history.
+      - name: Publish to output-skyline branch
+        working-directory: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git init -q -b output-skyline
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Skip the upload when nothing changed since the last render.
+          url="https://raw.githubusercontent.com/${{ github.repository }}/output-skyline/skyline.webp"
+          if curl -sfL "$url" -o /tmp/current.webp && cmp -s skyline.webp /tmp/current.webp; then
+            echo "No new contributions since the last render."
+            exit 0
+          fi
+          git add skyline.webp
+          git commit -q -m "Update contribution city"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" output-skyline

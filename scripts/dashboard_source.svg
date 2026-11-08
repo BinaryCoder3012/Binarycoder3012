@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1180" height="530" viewBox="0 0 1180 530" font-size="15px">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+}
+.key      { fill: #5EEAD4; font-weight: bold; }   
+.value    { fill: #E5E7EB; }   
+.cc       { fill: #4b5563; }   
+.title    { fill: #7DF9FF; font-weight: bold; font-size: 17px; }
+.section  { fill: #FF5F87; font-weight: bold; }
+.ascii    { fill: #7DF9FF; }
+text, tspan { white-space: pre; }
+</style>
+<rect width="1180px" height="530px" fill="#000000" rx="15"/>
+
+<!-- Left Pane: 70-col scaled ASCII Art -->
+<g transform="translate(22, 20) scale(0.48, 1.25)">
+<text x="0" y="0" class="ascii">
+  <tspan x="0" y="0">⣿⣿⡿⣟⣿⣻⡻⣟⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣟⣟⢿⡻⣛</tspan>
+  <tspan x="0" y="12">⣿⣵⣿⣝⢵⣕⣯⡿⣽⣳⢿⢽⣻⢿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣻⢯⢯⢯⢯⢯⢟⣟⣟⡿⣻⢿⢿⢿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢽⢕⢗⢎⢗⢝⢜</tspan>
+  <tspan x="0" y="24">⣿⣿⣻⣞⣷⣿⣿⣿⣿⣾⣫⡻⣺⣻⡯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣗⢽⢵⢹⢪⡫⡝⡭⡳⡕⣇⢯⢫⡫⣏⢯⢳⢝⢽⢝⡟⣿⢿⣟⣿⣿⣿⣿⣿⣿⣿⣿⡿⡯⡳⣝⢜⢼⢸⢨⠪</tspan>
+  <tspan x="0" y="36">⣿⣽⣺⢿⢿⡻⣫⢻⢝⢯⡣⣻⡪⡯⣫⢾⡷⡯⡯⣟⢿⣻⡿⣿⡿⣿⡻⡕⡝⡜⡎⢎⢎⢎⢪⢪⠪⡪⡪⢪⠪⡪⢪⠪⡪⢣⠫⡣⡣⡫⡪⣓⢗⡳⣽⣻⣿⣿⣿⣿⣿⣹⣽⣾⣮⣷⣷⣵⣕⣍</tspan>
+  <tspan x="0" y="48">⡳⣕⡕⡿⡵⣹⢸⢸⢪⢪⢺⡪⡏⡞⣎⠯⡺⣻⢹⡺⣝⢮⢯⢳⡻⠣⡣⡑⢅⢣⢊⡊⡢⢊⠢⡑⡑⢌⠌⡢⢑⢌⢂⠣⡑⠅⢕⢑⢌⠢⡃⡪⡪⡞⣜⢮⣟⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣕</tspan>
+  <tspan x="0" y="60">⡟⡮⡎⡮⡳⡹⢮⢳⡳⣳⢻⢸⡪⣞⢼⢜⠵⣕⢝⠼⡜⡎⡗⡕⢌⠪⡂⡪⠨⢂⠅⡂⡊⢄⢑⢐⠨⢐⠨⠠⡁⡂⠢⡁⠢⠡⢁⢂⠢⢁⠢⡊⢌⢎⢎⢞⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+  <tspan x="0" y="72">⢕⢕⢕⠜⡜⡪⡣⡓⢭⢪⢪⢲⢱⠱⡱⡣⡫⡪⡱⡹⡸⡌⡮⠪⡂⠅⡂⡂⡑⢐⠐⡐⢐⢀⢂⠐⡈⠄⠨⠐⡀⢂⠡⠀⠅⠨⠐⠐⡈⢐⠠⢈⢂⠪⠢⡫⣻⢻⠿⣿⣿⣿⡿⠿⡟⡿⠿⡽⣚⣞</tspan>
+  <tspan x="0" y="84">⢌⢆⢣⢑⢜⢌⠢⣑⠱⡨⢊⠎⡢⠱⡸⢸⢘⢌⢌⢆⢣⢓⢌⢊⠄⡁⢂⠂⠄⠡⠐⢀⢂⢄⡢⡐⡄⡌⢄⠅⡐⡠⠐⠈⠠⠈⠠⠁⠐⠀⠂⠠⠐⠨⠨⡊⢆⠇⡇⡯⢻⠳⢋⠪⠢⡃⢇⠇⢇⢳</tspan>
+  <tspan x="0" y="96">⢂⢊⠲⢐⢰⠡⡪⡠⡑⢕⠢⡑⠔⡁⣊⠢⡱⢈⢆⢪⠊⢖⠔⡑⡠⠐⠀⠂⢈⠠⢨⡲⣝⢷⢽⢕⡯⣺⢪⢞⡼⡴⡱⣅⢦⠬⡐⢈⢌⠄⠁⠀⢁⠈⢐⠨⡢⢣⠱⡨⢂⠑⠄⠅⡑⠌⢌⠪⡂⢮</tspan>
+  <tspan x="0" y="108">⠲⡠⡡⡁⡂⢅⠣⡊⡐⡢⠑⡅⢅⠌⠢⠡⠪⢐⢘⠔⣉⠢⢑⠌⠄⢀⠈⠀⡀⢠⢳⢹⠱⡙⠌⡃⡙⠜⠜⡕⡕⢝⠜⠜⡘⠕⠕⠅⡗⡆⠀⠈⠀⠀⠠⢑⠨⠐⡑⠌⡄⠊⠄⢕⠐⠅⡂⡌⢆⢣</tspan>
+  <tspan x="0" y="120">⡘⢄⠣⠡⡃⢑⠌⠔⡂⡊⢐⠈⡐⠅⠡⡙⢌⠂⠆⠕⡠⠡⠣⡐⡐⠀⠀⠑⢕⠃⡕⡡⢑⠠⠁⢂⠂⠅⢕⢜⢌⢂⠪⠐⠠⢑⠱⡑⡸⠰⢠⢄⠄⠀⠐⡀⠂⢅⠂⠅⠄⡑⠡⠡⢈⢂⢂⠪⡐⢽</tspan>
+  <tspan x="0" y="132">⢈⢂⠪⡊⡐⢡⠊⡐⠄⢌⠐⡀⠂⠅⡑⠄⡅⠌⠌⡪⠠⠑⠈⠄⠂⠀⢀⠀⢰⢡⢖⢔⢐⠄⢂⢐⢀⢅⢕⣮⢧⢅⠐⡀⠂⡀⠄⢂⠨⡂⢨⠂⠀⢀⠐⠀⠅⡂⠄⡁⠠⠐⢌⠊⡐⡀⢂⠢⢈⢾</tspan>
+  <tspan x="0" y="144">⠐⡐⠨⠂⠔⢄⡑⠺⡜⠔⡁⡢⠁⡈⠌⠂⠂⠌⠐⡀⠢⡈⠐⡈⠄⡁⠀⠄⣪⢗⣯⢯⡳⢕⢕⠕⡅⡣⡯⣯⢷⢱⡑⢔⢥⢢⢮⢮⡪⡎⡢⠠⠁⠂⡀⡁⠡⠐⡈⠄⠡⠡⡑⠌⡐⢀⠀⠢⡑⣿</tspan>
+  <tspan x="0" y="156">⠐⢀⠡⠈⠄⢑⠠⢊⣼⡪⠂⢂⠅⠂⠌⡠⠁⢅⠈⡂⠐⠀⠂⡀⠅⠈⠄⢇⡺⣽⡺⡕⡕⠕⢅⠃⡮⣞⠿⡕⡯⢧⢳⢡⢱⢱⢱⢕⡽⣪⢏⠠⠈⠀⠄⡐⡀⠡⠐⠨⢈⠂⡂⠡⠐⠁⠢⡡⠪⣾</tspan>
+  <tspan x="0" y="168">⠀⠄⠀⢂⢈⠐⣬⠣⡃⠠⡁⡂⠈⠄⠁⢃⠡⢐⠀⠂⢁⢈⠠⠀⠄⢁⠐⠄⡣⡳⡕⢇⠣⠃⠅⣊⢌⠄⡑⠑⢁⠁⡅⢅⠂⡪⡨⡢⡫⡪⣣⡡⣈⡂⢕⠠⡀⠄⡁⠌⡀⡂⢐⠠⢁⠊⠌⡂⣕⡿</tspan>
+  <tspan x="0" y="180">⠈⠀⠁⠠⠐⢀⢂⠷⡪⠀⠡⠀⠁⠈⠀⠁⠄⡠⠐⠀⠄⢀⢈⣢⣄⣅⢂⢂⢇⠕⡕⢅⠁⠨⠸⢘⠜⡐⠔⠰⢐⠡⠪⡐⡐⠐⠨⡊⢜⢘⢜⡎⣟⣾⣸⣝⣞⣖⣦⡥⣌⣢⠡⠨⢐⠈⢌⠐⢜⡯</tspan>
+  <tspan x="0" y="192">⠀⠌⡐⠁⠀⢂⢂⢙⠄⡈⡐⠈⠀⠅⠀⠈⠂⢀⠀⠈⠄⣥⣾⣿⣿⣿⣿⣿⡟⡌⢎⢆⢂⢢⢢⡠⣃⡑⡉⡑⡑⡈⢄⠠⡠⢀⠪⡨⢂⠅⡏⡎⡮⣚⢾⣺⢕⢏⢷⣽⣟⣿⣿⣧⣂⠅⡂⡈⢼⢝</tspan>
+  <tspan x="0" y="204">⠈⠀⡀⠈⠠⠀⢀⠐⢀⠀⠀⠀⠄⠀⠄⠀⠐⠀⠀⣡⠚⠍⠻⡽⡿⠿⠿⢫⠪⢮⢘⠔⡡⢢⢣⢣⠣⠱⠙⠜⡘⢌⠢⡃⢎⠐⢅⠢⠡⣽⢘⢜⠰⡑⡝⡪⠪⡵⣿⣿⣿⣿⣿⣿⣿⣶⣀⢂⢵⡫</tspan>
+  <tspan x="0" y="216">⠠⠀⠢⡈⠀⠠⠀⠐⡀⠂⠊⠐⠀⢂⢐⠐⠈⢠⠲⢉⠪⡈⠠⠙⠔⠈⠀⠄⠪⣢⣅⠊⢌⠪⡪⣪⣪⡪⡤⡅⣆⢆⢇⢕⠡⢊⠐⣈⣞⢇⢊⠂⢌⢜⠬⢈⢪⢻⢿⡿⣿⣿⣟⣟⣟⣿⣿⣶⣹⡪</tspan>
+  <tspan x="0" y="228">⠈⡐⡡⠠⠁⠐⠈⠀⠂⠄⠁⠁⢈⡐⠤⠑⠠⢃⠌⡀⢂⢈⠂⠈⠀⠀⠀⠀⠀⠈⠀⢐⠆⠡⠩⡊⡲⢑⢑⢑⢑⠕⠕⠡⠁⠄⢔⡺⡎⠄⠁⠈⠢⢃⠈⡐⢬⣚⢯⣟⡷⣻⣹⣽⣿⣿⣿⣷⠵⡿</tspan>
+  <tspan x="0" y="240">⠀⠸⢘⢔⠄⡈⢀⠈⠀⠂⡀⠄⢄⠣⠗⡜⡕⢔⠀⡂⠄⡁⠐⠀⡀⠀⠀⠀⠀⠀⠀⢸⠀⠁⡂⠄⠀⠁⠐⠀⠠⠈⠀⠀⠀⡐⢦⡻⠨⠀⠀⠐⠀⠂⢀⠪⣧⡻⡷⣽⣾⣿⣿⣿⣿⣿⣿⣿⣗⢽</tspan>
+  <tspan x="0" y="252">⠀⡀⠠⠑⠁⠖⡠⠀⠂⠀⢀⢀⠠⠘⡎⡣⡣⢃⠕⡠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡪⠂⠀⠀⠅⠌⠠⠀⢀⠀⠀⠀⢀⠢⣭⢳⡑⠅⠀⠀⠀⠀⠀⡌⢯⡪⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣗⣽</tspan>
+  <tspan x="0" y="264">⠀⠀⡀⠈⢔⠔⠀⠅⠀⡁⠀⢀⢀⡧⣇⠧⡡⢃⠜⢀⠑⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢁⠠⠀⠀⠀⠈⠄⠈⠀⠀⠀⢀⠤⣳⢳⡝⡌⠀⠀⠀⠀⠀⢔⡩⣖⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+  <tspan x="0" y="276">⠀⢀⠂⠀⢱⢑⠌⠁⠂⠄⠂⡷⣝⢮⢣⠣⡓⢌⠠⠁⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠌⠂⢯⣳⢇⠅⠀⠀⠀⠀⢐⢢⣫⢾⣷⣿⣿⣿⣿⣿⡿⣿⣿⢿⢟⣿⣿⣿</tspan>
+  <tspan x="0" y="288">⠀⠀⠄⢤⡢⡀⡂⡁⠄⢠⣺⣝⢮⢫⢱⢑⡑⡐⠄⠂⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⡀⠀⠀⠀⠀⠀⢀⠎⠀⠀⠀⠈⡐⠀⠀⠀⠠⢀⠁⡮⣺⠯⡗⣏⢷⢽⣞⣷⢻⣫⣞⣽⢽⣺⣣⣧</tspan>
+  <tspan x="0" y="300">⣬⢌⠈⢂⠱⠰⢓⢈⢨⣾⢳⡳⡝⣎⢇⠇⢎⠔⡐⢀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢆⠢⠀⠀⠀⠐⠁⠀⠂⠀⠀⢀⠂⠀⠀⠀⢌⠂⠈⣞⡵⣏⡷⣕⡯⡻⡺⡼⣽⡾⣗⣯⢗⣷⣳⡻</tspan>
+  <tspan x="0" y="312">⢟⡻⣳⣤⣠⣱⣼⡴⣟⣞⣗⢯⢞⢆⡇⡮⡰⡠⡂⠄⡀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢅⢊⠄⡀⠐⠀⠐⠈⠀⠀⠀⡐⠠⠀⠀⠐⡀⠕⠀⢸⢼⣫⢷⡱⡵⣝⣿⡻⣽⡽⣳⢯⣳⡳⣗⣽</tspan>
+  <tspan x="0" y="324">⣿⣿⣿⣿⣿⣟⡷⡯⡳⡳⢕⢏⠗⡕⢇⠧⡣⡣⡃⠕⠀⡁⠀⠀⠈⠀⠀⠀⠐⠀⠀⠂⠠⠀⢑⢄⢅⠂⢁⠈⠀⠁⠀⠀⠀⡌⠄⠐⢀⢂⢂⠈⠄⡈⡾⡱⣱⢱⣹⣫⣺⡾⡽⣽⢽⢽⣪⢯⣗⢿</tspan>
+  <tspan x="0" y="336">⣿⣿⣿⣿⣿⣺⣾⣟⣯⡿⡽⣮⡳⣕⢖⢔⠄⠄⡀⠁⠁⠀⠀⠄⠀⠀⠀⠀⣁⠁⠀⢁⠐⠠⠨⡢⡑⢀⠂⠄⡁⠀⠐⠀⠰⡐⡅⡣⡑⠔⠠⠈⢄⡲⡕⡯⡳⣳⢕⣾⡺⡯⡿⡳⠟⠏⡊⡐⠌⡽</tspan>
+  <tspan x="0" y="348">⣿⣿⣿⣿⣽⣯⡷⣟⣗⡯⣟⢞⢞⢎⢎⢎⠌⢂⠐⠀⠀⠀⠠⠁⠀⠁⠀⠀⠨⣕⢑⠄⡢⡡⡑⡢⠂⢇⢂⠡⢐⠁⠀⠀⠜⡰⡑⢅⠑⠈⢠⢮⠳⡑⢈⠖⡙⠌⠅⠅⡊⡐⡐⠠⠁⠡⠐⠠⠁⢧</tspan>
+  <tspan x="0" y="360">⣿⣿⣿⣟⣷⢯⣟⣗⢷⢝⢮⡫⡣⡫⡊⡢⡨⡠⣐⢄⢄⡀⠌⠠⠐⠈⠀⡀⠐⠰⡱⣙⢜⢮⢾⡔⡅⢅⠔⡨⠐⠀⠠⠀⡑⡐⢈⠠⠐⠈⡜⣔⡥⣴⣲⡕⡶⡼⣴⣥⡔⠠⢀⢂⠅⠅⠅⠅⡡⢑</tspan>
+  <tspan x="0" y="372">⣿⣻⣽⡾⣯⣻⡺⣜⢕⢏⢇⢇⢇⠣⡸⣾⢯⣿⣳⢯⣗⢽⡱⡱⡠⣂⢡⢀⡀⡑⠒⡌⡎⣎⢿⢕⣗⡵⣕⣕⢕⠨⡐⢀⡒⡠⡠⠀⠀⢰⢱⠱⠋⢇⠣⢋⢪⣹⣺⡝⢀⠰⢐⠔⡘⠌⡊⡐⠄⠆</tspan>
+  <tspan x="0" y="384">⣫⣿⣳⢿⢵⡳⡕⣕⣑⡡⡪⡰⣐⡁⠪⡓⣯⢷⡿⣿⢾⣗⣯⡿⣽⣺⢮⣣⡳⡜⡜⡜⢜⠪⣞⣕⢧⡣⡧⡳⡱⡑⡌⠠⠭⠌⠔⢀⢔⢵⢱⡫⣟⢽⢝⠭⠳⠹⠱⢉⢐⠌⡢⠨⡐⠡⡐⡀⡂⠡</tspan>
+  <tspan x="0" y="396">⡿⣾⢽⢯⣗⡯⡾⣵⡳⡯⡯⣻⣪⣞⣝⢮⣢⡫⡹⡹⡝⡞⣗⢯⢷⣻⣽⡺⣪⢯⣺⡹⣪⡳⡢⡆⡇⡫⢙⠎⡇⡇⡇⢅⢓⡑⡅⡎⡮⡚⠆⠅⠁⠁⡀⣄⢌⢐⢨⢰⣰⣵⡾⣾⣞⡷⣳⡲⣢⠁</tspan>
+  <tspan x="0" y="408">⡿⡯⡯⣗⣗⢯⣻⢺⡺⣝⡽⡵⣳⡳⣝⣗⣗⡯⡾⣜⣜⢜⢌⠪⡛⣞⡮⣟⢮⡳⡵⣝⢮⣺⢵⢝⢮⡺⣸⡸⢬⠬⡨⡂⡅⡣⢣⢣⠣⣃⢕⢦⠧⡳⡫⠯⣣⢶⣻⣻⣽⢷⢿⣳⣟⢾⢕⡯⣪⠂</tspan>
+</text>
+</g>
+
+<!-- Right Pane: Terminal System Specs -->
+<text x="540" y="30">
+  <tspan x="540" y="35" class="title">Lakshya@Binary-Workspace</tspan><tspan class="cc"> ----------------------------------</tspan>
+  <tspan x="540" y="55" class="cc">. </tspan><tspan class="key">Subject</tspan><tspan class="cc"> ....................... </tspan><tspan class="value">Lakshya Sachdeva</tspan>
+  <tspan x="540" y="75" class="cc">. </tspan><tspan class="key">Designation</tspan><tspan class="cc"> ................... </tspan><tspan class="value">SDE &amp; Full-Stack Dev, CP</tspan>
+  <tspan x="540" y="95" class="cc">. </tspan><tspan class="key">Origin</tspan><tspan class="cc"> ........................ </tspan><tspan class="value">BITS Pilani, Hyd Campus</tspan>
+  <tspan x="540" y="115" class="cc">. </tspan><tspan class="cc">                                </tspan><tspan class="value">(ENI + C&amp;I Minor)</tspan>
+  <tspan x="540" y="135" class="cc">. </tspan><tspan class="key">Status</tspan><tspan class="cc"> ........................ </tspan><tspan class="value">Active Undergrad (Y3)</tspan>
+  <tspan x="540" y="155" class="cc">. </tspan><tspan class="key">ToolChain</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">VS Code, Git, Docker, Linux</tspan>
+  <tspan x="540" y="175" class="cc">. </tspan>
+  <tspan x="540" y="195" class="cc">. </tspan><tspan class="key">Binary.Core</tspan><tspan class="cc"> ................... </tspan><tspan class="value">C++, Python, Java, TypeScript</tspan>
+  <tspan x="540" y="215" class="cc">. </tspan><tspan class="key">Binary.Frontend</tspan><tspan class="cc"> ............... </tspan><tspan class="value">React, Next.js, Three.js, GSAP</tspan>
+  <tspan x="540" y="235" class="cc">. </tspan><tspan class="key">Binary.Backend</tspan><tspan class="cc"> ................ </tspan><tspan class="value">Node.js, FastAPI, Firebase</tspan>
+  <tspan x="540" y="255" class="cc">. </tspan><tspan class="key">Binary.Data</tspan><tspan class="cc"> ................... </tspan><tspan class="value">MySQL, PostgreSQL, pgvector</tspan>
+  <tspan x="540" y="275" class="cc">. </tspan>
+  <tspan x="540" y="295" class="section">- Contact</tspan><tspan class="cc"> -----------------------------------------</tspan>
+  <tspan x="540" y="315" class="cc">. </tspan><tspan class="key">Grid.Mail</tspan><tspan class="cc"> ..................... </tspan><tspan class="value">f20240468@hyderabad.bits-pilani.ac.in</tspan>
+  <tspan x="540" y="335" class="cc">. </tspan><tspan class="key">Grid.LinkedIn</tspan><tspan class="cc"> ................. </tspan><tspan class="value">linkedin.com/in/lakshya-sachdeva2006</tspan>
+  <tspan x="540" y="355" class="cc">. </tspan><tspan class="key">Grid.LeetCode</tspan><tspan class="cc"> ................. </tspan><tspan class="value">leetcode.com/u/lakshya1313</tspan>
+  <tspan x="540" y="375" class="cc">. </tspan><tspan class="key">Grid.Codeforces</tspan><tspan class="cc"> ............... </tspan><tspan class="value">codeforces.com/profile/Lakshya_13</tspan>
+  <tspan x="540" y="395" class="cc">. </tspan><tspan class="key">Grid.Github</tspan><tspan class="cc"> ................... </tspan><tspan class="value">BinaryCoder3012</tspan>
+  <tspan x="540" y="415" class="cc">. </tspan><tspan class="key">Grid.Portfolio</tspan><tspan class="cc"> ................ </tspan><tspan class="value">lakshyasachdevaportfolio.vercel.app</tspan>
+</text>
+</svg>
